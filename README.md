@@ -176,6 +176,4 @@ http://localhost:3000/api-docs
 - `jsonwebtoken`: For JWT authentication
 - `sequelize`: ORM for database interaction
 
-## License
-This project is licensed under the MIT License.
 
