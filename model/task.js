@@ -10,8 +10,8 @@ const Task = sequelize.define('Task', {
     type: DataTypes.ENUM('To-Do', 'In Progress', 'Completed'),
     defaultValue: 'To-Do',
   },
-  assignedTo: { type: DataTypes.INTEGER, allowNull: true }, // User ID
-  createdBy: { type: DataTypes.INTEGER, allowNull: false }, // User ID
+  assignedTo: { type: DataTypes.INTEGER, allowNull: true }, 
+  createdBy: { type: DataTypes.INTEGER, allowNull: false }, 
 });
 
 module.exports = Task;

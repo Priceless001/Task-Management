@@ -1,4 +1,3 @@
-// swagger/swaggerDefinition.js
 module.exports = {
     openapi: '3.0.0',
     info: {
